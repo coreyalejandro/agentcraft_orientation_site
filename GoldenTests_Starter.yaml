@@ -1,0 +1,11 @@
+# Golden Tests Starter - Deterministic evaluation examples for agents
+tests:
+  - name: Summarise a report
+    input: "Summarise the following report: The agent system processed 500 requests with a 98% success rate..."
+    expected_output: "The report states that the agent processed 500 requests and achieved a 98% success rate."
+  - name: Fetch current weather
+    input: "Get the current weather in New York City."
+    expected_output: "It is currently 75°F and sunny in New York City."
+  - name: Translate greeting
+    input: "Translate the phrase 'Hello, world!' into French."
+    expected_output: "Bonjour, le monde !"
